@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MisProyectos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_google_json">GoogleJSON</string>
+    <string name="empty_text">No items to display!</string>
+    <string name="no_connection_message">Network is unaviable!</string>
+    <string name="search">search</string>
+    <string name="hint_search">write a term to search</string>
+
+
+</resources>
