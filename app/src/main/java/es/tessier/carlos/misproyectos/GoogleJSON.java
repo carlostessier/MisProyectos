@@ -86,14 +86,7 @@ public class GoogleJSON extends Activity {
 
                 if(responseCode==HttpURLConnection.HTTP_OK){
                     InputStream inputStream = connection.getInputStream();
-                /*    Reader reader = new InputStreamReader(inputStream);
-
-                    int contentLength = connection.getContentLength();
-                    char[] charArray = new char[contentLength];
-                    reader.read(charArray);
-                     String responseData = new String(charArray);
-
-*/
+ 
                     BufferedReader streamReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
                     StringBuilder responseStrBuilder = new StringBuilder();
 
