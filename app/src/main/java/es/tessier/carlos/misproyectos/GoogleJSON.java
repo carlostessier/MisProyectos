@@ -91,7 +91,6 @@ public class GoogleJSON extends Activity {
                     int contentLength = connection.getContentLength();
                     char[] charArray = new char[contentLength];
                     reader.read(charArray);
-
                      String responseData = new String(charArray);
 
 */
