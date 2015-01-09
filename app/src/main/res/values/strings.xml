@@ -9,6 +9,7 @@
     <string name="no_connection_message">Network is unaviable!</string>
     <string name="search">search</string>
     <string name="hint_search">write a term to search</string>
-
+    <string name="title_activity_actividad__intent_1">Actividad_Intent_1</string>
+    <string name="title_activity_actividad__intent_1_2">Actividad_Intent_1_2</string>
 
 </resources>

@@ -13,7 +13,7 @@ import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
 
-    private String practicas[] = {"GoogleJSON"};
+    private String practicas[] = {"GoogleJSON","Actividad_Intent_1"};
 
     final static String TAG = MainActivity.class.getName();
 
