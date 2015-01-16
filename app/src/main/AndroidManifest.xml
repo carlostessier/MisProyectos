@@ -25,12 +25,25 @@
         </activity>
         <activity
             android:name=".Actividad_Intent_1"
-            android:label="@string/title_activity_actividad__intent_1" >
+            android:label="@string/title_activity_actividad__intent_1"
+            android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
             android:name=".Actividad_Intent_1_2"
             android:label="@string/title_activity_actividad__intent_1_2"
-            android:parentActivityName=".Actividad_Intent_1">
+            android:parentActivityName=".Actividad_Intent_1" >
+        </activity>
+        <activity
+            android:name=".CicloDeVida"
+            android:label="@string/title_activity_ciclo_de_vida" >
+        </activity>
+        <activity
+            android:name=".Actividad_Intent_2"
+            android:label="@string/title_activity_actividad__intent_2" >
+        </activity>
+        <activity
+            android:name=".Actividad_Intent_2_2"
+            android:label="@string/title_activity_actividad__intent_2_2" >
         </activity>
     </application>
 

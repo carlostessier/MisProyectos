@@ -11,5 +11,8 @@
     <string name="hint_search">write a term to search</string>
     <string name="title_activity_actividad__intent_1">Actividad_Intent_1</string>
     <string name="title_activity_actividad__intent_1_2">Actividad_Intent_1_2</string>
+    <string name="title_activity_ciclo_de_vida">CicloDeVida</string>
+    <string name="title_activity_actividad__intent_2">Actividad_Intent_2</string>
+    <string name="title_activity_actividad__intent_2_2">Actividad_Intent_2_2</string>
 
 </resources>
