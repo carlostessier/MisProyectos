@@ -18,20 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e36da17-2454-4b01-be2e-be2deeeb199f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/BroadcastReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/MyReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Progress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_broadcast_receiver.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_progress.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_broadcast_receiver.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_progress.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_1.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_1_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_1_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_2_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_2_2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/Pulsame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pulsame.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_pulsamo.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/CicloDeVida.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/CicloDeVida.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java" />
@@ -39,13 +29,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_1_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_broadcast_receiver.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_broadcast_receiver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ciclo_de_vida.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ciclo_de_vida.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_1_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_2_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_actividad__intent_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_broadcast_receiver.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_broadcast_receiver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_ciclo_de_vida.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_ciclo_de_vida.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MisProyectos.iws" />
@@ -69,12 +62,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Actividad_Intent_2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_2.java">
+      <file leaf-file-name="Pulsame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/Pulsame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1334">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.13109756" vertical-offset="697" max-vertical-offset="1537">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding>
+                <element signature="e#760#890#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,64 +77,41 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="3364">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3422">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Progress.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Progress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34463277" vertical-offset="980" max-vertical-offset="3306">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1027#1455#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1665#2246#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-                <element signature="e#2750#3069#0" expanded="true" />
-                <element signature="e#3050#3051#0" expanded="true" />
-                <element signature="e#3192#3511#0" expanded="true" />
-                <element signature="e#3492#3493#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_progress.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_progress.xml">
+      <file leaf-file-name="activity_pulsame.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pulsame.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.740741" vertical-offset="137" max-vertical-offset="957">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state vertical-scroll-proportion="-14.925926" vertical-offset="61" max-vertical-offset="696">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actividad_Intent_1.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_1.java">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1595">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_actividad__intent_1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_1.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="17" />
+            <state vertical-scroll-proportion="-12.56" vertical-offset="295" max-vertical-offset="957">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -148,28 +120,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1845" max-vertical-offset="2436">
-              <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3074">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#568#586#0" expanded="true" />
-                <element signature="e#896#932#0" expanded="true" />
-                <element signature="e#1054#1098#0" expanded="true" />
-                <element signature="e#1278#1324#0" expanded="true" />
-                <element signature="e#1500#1538#0" expanded="true" />
-                <element signature="e#1660#1704#0" expanded="true" />
-                <element signature="e#2324#2367#0" expanded="true" />
-                <element signature="e#2691#2724#0" expanded="true" />
+                <element signature="e#3069#3102#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BroadcastReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/BroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -736,14 +691,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/GoogleJSON.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_googlejson.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_1.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_1_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ciclo_de_vida.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/CicloDeVida.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_actividad__intent_2_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Actividad_Intent_2_2.java" />
@@ -751,18 +703,25 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_broadcast_receiver.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/BroadcastReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MyReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_progress.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Progress.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/CicloDeVida.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/CicloDeVida.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pulsamo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pulsame.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/Pulsame.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -790,8 +749,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -899,6 +856,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MisProyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MisProyectos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -963,7 +950,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Intents" />
+              <option name="myItemId" value="lifecycle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -987,6 +974,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -998,7 +987,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0921871d0bdba156" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4_API_15" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
@@ -1006,9 +995,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
+      <recent name="es.tessier.carlos.misproyectos.lifecycle" />
       <recent name="es.tessier.carlos.misproyectos" />
     </key>
     <key name="android.template.parentActivityClass">
@@ -1196,11 +1187,15 @@
       <created>1421431930779</created>
       <updated>1421431930779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="actividades progress bar y broadcast intents">
+      <created>1422019454709</created>
+      <updated>1422019454709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="997" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1208,22 +1203,22 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08239096" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20885357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39878234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20885357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20204313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28998384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1251,39 +1246,14 @@
     </option>
     <MESSAGE value="Actividad intents 1" />
     <MESSAGE value="Actividad intents 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad intents 2" />
+    <MESSAGE value="actividades progress bar y broadcast intents" />
+    <MESSAGE value="actividad pulsame" />
+    <option name="LAST_COMMIT_MESSAGE" value="actividad pulsame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_googlejson.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1421">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="986">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="580">
@@ -1316,14 +1286,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
+            <element signature="e#3069#3102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1360,14 +1323,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
+            <element signature="e#3069#3102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1404,14 +1360,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
+            <element signature="e#3069#3102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1448,14 +1397,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="578">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
+            <element signature="e#3069#3102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1545,13 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1579,18 +1514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_1_2.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/Actividad_Intent_1_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9375" vertical-offset="580" max-vertical-offset="1218">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,14 +1528,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/CicloDeVida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="2523">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,7 +1542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_2_2.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/Actividad_Intent_2_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1827">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="35" />
@@ -1653,7 +1572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_1.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/Actividad_Intent_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1595">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
@@ -1672,7 +1591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/Actividad_Intent_2.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/Actividad_Intent_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1334">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
@@ -1691,40 +1610,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/BroadcastReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/BroadcastReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
+        <state vertical-scroll-proportion="0.036253776" vertical-offset="266" max-vertical-offset="928">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="3364">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1845" max-vertical-offset="2436">
-          <caret line="70" column="74" selection-start-line="70" selection-start-column="74" selection-end-line="70" selection-end-column="74" />
-          <folding>
-            <element signature="e#568#586#0" expanded="true" />
-            <element signature="e#896#932#0" expanded="true" />
-            <element signature="e#1054#1098#0" expanded="true" />
-            <element signature="e#1278#1324#0" expanded="true" />
-            <element signature="e#1500#1538#0" expanded="true" />
-            <element signature="e#1660#1704#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2691#2724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Intents/MyReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/intents/MyReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40960452" vertical-offset="116" max-vertical-offset="609">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
@@ -1736,7 +1630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42655367" vertical-offset="516" max-vertical-offset="928">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,26 +1638,81 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.740741" vertical-offset="137" max-vertical-offset="957">
+        <state vertical-scroll-proportion="0.28661418" vertical-offset="137" max-vertical-offset="957">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/CicloDeVida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="2436">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/Progress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34463277" vertical-offset="980" max-vertical-offset="3306">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.27190334" vertical-offset="951" max-vertical-offset="3016">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1027#1455#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1665#2246#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2750#3069#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-            <element signature="e#3192#3511#0" expanded="true" />
-            <element signature="e#3492#3493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3074">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#3069#3102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pulsame.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.925926" vertical-offset="61" max-vertical-offset="696">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3422">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.56" vertical-offset="295" max-vertical-offset="957">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/es/tessier/carlos/misproyectos/lifecycle/Pulsame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13109756" vertical-offset="697" max-vertical-offset="1537">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#760#890#0" expanded="true" />
           </folding>
         </state>
       </provider>

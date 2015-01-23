@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="es.tessier.carlos.misproyectos.Intents.Actividad_Intent_1">
+    tools:context="es.tessier.carlos.misproyectos.intents.Actividad_Intent_1">
 
     <Button
         android:layout_width="wrap_content"

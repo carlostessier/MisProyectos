@@ -1,10 +1,12 @@
-package es.tessier.carlos.misproyectos;
+package es.tessier.carlos.misproyectos.lifecycle;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import es.tessier.carlos.misproyectos.R;
 
 
 public class CicloDeVida extends Activity {
@@ -76,10 +78,5 @@ public class CicloDeVida extends Activity {
 
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d(TAG, "onDestroy");
 
-    }
 }

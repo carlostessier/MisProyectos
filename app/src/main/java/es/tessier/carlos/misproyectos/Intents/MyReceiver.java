@@ -1,4 +1,4 @@
-package es.tessier.carlos.misproyectos.Intents;
+package es.tessier.carlos.misproyectos.intents;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
