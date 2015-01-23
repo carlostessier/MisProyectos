@@ -1,4 +1,4 @@
-package es.tessier.carlos.misproyectos;
+package es.tessier.carlos.misproyectos.Intents;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import es.tessier.carlos.misproyectos.R;
 
 
 public class Actividad_Intent_2 extends Activity {

@@ -1,4 +1,4 @@
-package es.tessier.carlos.misproyectos;
+package es.tessier.carlos.misproyectos.Intents;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+
+import es.tessier.carlos.misproyectos.R;
 
 
 public class Actividad_Intent_2_2 extends Activity {

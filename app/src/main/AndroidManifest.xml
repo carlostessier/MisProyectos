@@ -24,26 +24,54 @@
             android:label="@string/title_activity_google_json" >
         </activity>
         <activity
-            android:name=".Actividad_Intent_1"
+            android:name=".Intents.Actividad_Intent_1"
             android:label="@string/title_activity_actividad__intent_1"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name=".Actividad_Intent_1_2"
+            android:name=".Intents.Actividad_Intent_1_2"
             android:label="@string/title_activity_actividad__intent_1_2"
-            android:parentActivityName=".Actividad_Intent_1" >
+            android:parentActivityName=".Intents.Actividad_Intent_1" >
         </activity>
         <activity
             android:name=".CicloDeVida"
             android:label="@string/title_activity_ciclo_de_vida" >
         </activity>
         <activity
-            android:name=".Actividad_Intent_2"
+            android:name=".Intents.Actividad_Intent_2"
             android:label="@string/title_activity_actividad__intent_2" >
         </activity>
         <activity
-            android:name=".Actividad_Intent_2_2"
+            android:name=".Intents.Actividad_Intent_2_2"
             android:label="@string/title_activity_actividad__intent_2_2" >
+        </activity>
+
+        <receiver
+            android:name=".Intents.MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="es.tessier.carlos.misproyectos.CUSTOM_INTENT" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Intents.BroadcastReceiver"
+            android:label="@string/title_activity_broadcast_receiver"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.tessier.carlos.misproyectos.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Progress"
+            android:label="@string/title_activity_progress"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.tessier.carlos.misproyectos.MainActivity" />
         </activity>
     </application>
 

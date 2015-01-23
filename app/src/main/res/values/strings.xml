@@ -14,5 +14,7 @@
     <string name="title_activity_ciclo_de_vida">CicloDeVida</string>
     <string name="title_activity_actividad__intent_2">Actividad_Intent_2</string>
     <string name="title_activity_actividad__intent_2_2">Actividad_Intent_2_2</string>
+    <string name="title_activity_broadcast_receiver">BroadcastReceiver</string>
+    <string name="title_activity_progress">Progress</string>
 
 </resources>

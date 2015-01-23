@@ -1,9 +1,11 @@
-package es.tessier.carlos.misproyectos;
+package es.tessier.carlos.misproyectos.Intents;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import es.tessier.carlos.misproyectos.R;
 
 
 public class Actividad_Intent_1_2 extends Activity {
