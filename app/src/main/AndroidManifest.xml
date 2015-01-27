@@ -25,7 +25,6 @@
             android:name=".GoogleJSON"
             android:label="@string/title_activity_google_json"
             android:theme="@style/Theme.AppCompat.Light" >
-
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_1"
@@ -42,19 +41,16 @@
             android:name=".lifecycle.CicloDeVida"
             android:label="@string/title_activity_ciclo_de_vida"
             android:theme="@style/Theme.AppCompat.Light" >
-
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_2"
             android:label="@string/title_activity_actividad__intent_2"
             android:theme="@style/Theme.AppCompat.Light" >
-
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_2_2"
             android:label="@string/title_activity_actividad__intent_2_2"
             android:theme="@style/Theme.AppCompat.Light" >
-
         </activity>
 
         <receiver
@@ -72,13 +68,12 @@
             android:label="@string/title_activity_broadcast_receiver"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light" >
-
-        <meta-data
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="es.tessier.carlos.misproyectos.MainActivity" />
         </activity>
         <activity
-            android:name=".Progress"
+            android:name=".dialog.Progress"
             android:label="@string/title_activity_progress"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light" >
@@ -90,10 +85,14 @@
             android:name=".lifecycle.Pulsame"
             android:label="@string/title_activity_pulsamo"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light">
+            android:theme="@style/Theme.AppCompat.Light" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="es.tessier.carlos.misproyectos.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dialog.FragmentAlertDialog"
+            android:label="@string/title_activity_fragment_alert_dialog" >
         </activity>
     </application>
 

@@ -19,7 +19,7 @@ public class MainActivity extends ListActivity {
             "lifecycle.CicloDeVida",
             "lifecycle.Pulsame",
             "intents.BroadcastReceiver",
-            "Progress",
+            "dialog.Progress",
             };
 
     final static String TAG = MainActivity.class.getName();

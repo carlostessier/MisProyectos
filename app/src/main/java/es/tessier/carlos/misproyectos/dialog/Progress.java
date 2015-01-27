@@ -1,4 +1,4 @@
-package es.tessier.carlos.misproyectos;
+package es.tessier.carlos.misproyectos.dialog;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -6,11 +6,16 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.Window;
+import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import es.tessier.carlos.misproyectos.R;
 
 
 public class Progress extends ActionBarActivity {
     ProgressDialog progressDialog;
+    private ProgressBar spinner;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +25,18 @@ public class Progress extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress);
 
-        setSupportProgressBarIndeterminateVisibility(Boolean.TRUE);
+        spinner = (ProgressBar)findViewById(R.id.progressBar);
+        spinner.setVisibility(View.GONE);
 
 
+    }
+
+    public void load(View button) {
+
+        if(spinner.getVisibility()==View.VISIBLE)
+            spinner.setVisibility(View.INVISIBLE);
+        else
+         spinner.setVisibility(View.VISIBLE);
     }
 
     public void progressDialog(View button) {

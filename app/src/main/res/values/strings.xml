@@ -21,7 +21,10 @@
     <plurals name="vecesPulsado">
         <item quantity="one">Pulsado %d vez</item>
         <item quantity="other">Pulsado %d veces</item>
-
     </plurals>
+
+    <string name="title_activity_fragment_dialog">fragmentDialog</string>
+    <string name="title_activity_fragment_alert_dialog">FragmentAlertDialog</string>
+    <string name="alert_dialog_two_buttons_title">titulo</string>
 
 </resources>

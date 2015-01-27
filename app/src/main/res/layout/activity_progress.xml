@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="es.tessier.carlos.misproyectos.Progress">
+    tools:context="es.tessier.carlos.misproyectos.dialog.Progress">
 
     <Button
         android:layout_width="wrap_content"
@@ -23,5 +23,21 @@
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:onClick="openProgressDialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressView"
+        android:id="@+id/button5"
+        android:onClick="load"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
