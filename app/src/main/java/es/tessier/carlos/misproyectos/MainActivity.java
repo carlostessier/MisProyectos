@@ -21,7 +21,6 @@ public class MainActivity extends ListActivity {
             "lifecycle.Pulsame",
             "dialog.Progress",
             "persistencia.PreferenceActivity",
-            "persistencia.ActividadPreferencias",
             "Compartir"
 
             };

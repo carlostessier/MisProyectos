@@ -1,6 +1,7 @@
 package es.tessier.carlos.misproyectos.persistencia;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -15,7 +16,7 @@ public class PreferenceActivity extends Activity {
 
     SharedPreferences appPrefs;
     EditText editText;
-    final static String PREFERENCIA = "preferencia";
+    final static String PREFERENCIA = "editTextPref";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,8 @@ public class PreferenceActivity extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent i = new Intent(this,es.tessier.carlos.misproyectos.persistencia.ActividadPreferencias.class);
+            startActivity(i);
             return true;
         }
 
