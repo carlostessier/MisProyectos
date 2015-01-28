@@ -12,8 +12,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/app_name" >
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +22,11 @@
         </activity>
         <activity
             android:name=".GoogleJSON"
-            android:label="@string/title_activity_google_json"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/title_activity_google_json" >
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_1"
-            android:label="@string/title_activity_actividad__intent_1"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/title_activity_actividad__intent_1" >
         >
         </activity>
         <activity
@@ -39,18 +36,15 @@
         </activity>
         <activity
             android:name=".lifecycle.CicloDeVida"
-            android:label="@string/title_activity_ciclo_de_vida"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/title_activity_ciclo_de_vida" >
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_2"
-            android:label="@string/title_activity_actividad__intent_2"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/title_activity_actividad__intent_2" >
         </activity>
         <activity
             android:name=".intents.Actividad_Intent_2_2"
-            android:label="@string/title_activity_actividad__intent_2_2"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:label="@string/title_activity_actividad__intent_2_2" >
         </activity>
 
         <receiver
@@ -66,8 +60,7 @@
         <activity
             android:name=".intents.BroadcastReceiver"
             android:label="@string/title_activity_broadcast_receiver"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="es.tessier.carlos.misproyectos.MainActivity" />
@@ -75,8 +68,7 @@
         <activity
             android:name=".dialog.Progress"
             android:label="@string/title_activity_progress"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="es.tessier.carlos.misproyectos.MainActivity" />
@@ -84,8 +76,7 @@
         <activity
             android:name=".lifecycle.Pulsame"
             android:label="@string/title_activity_pulsamo"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="es.tessier.carlos.misproyectos.MainActivity" />
@@ -93,6 +84,27 @@
         <activity
             android:name=".dialog.FragmentAlertDialog"
             android:label="@string/title_activity_fragment_alert_dialog" >
+        </activity>
+        <activity
+            android:name=".Compartir"
+            android:label="@string/title_activity_compartir"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".persistencia.PreferenceActivity"
+            android:label="@string/title_activity_preference"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.tessier.carlos.misproyectos.MainActivity" />
+        </activity>
+        <activity
+            android:name=".persistencia.ActividadPreferencias"
+            android:label="@string/title_activity_actividad_preferencias"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.tessier.carlos.misproyectos.MainActivity" />
         </activity>
     </application>
 

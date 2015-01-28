@@ -1,9 +1,9 @@
 package es.tessier.carlos.misproyectos.dialog;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.Window;
 import android.widget.ProgressBar;
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import es.tessier.carlos.misproyectos.R;
 
 
-public class Progress extends ActionBarActivity {
+public class Progress extends Activity {
     ProgressDialog progressDialog;
     private ProgressBar spinner;
 

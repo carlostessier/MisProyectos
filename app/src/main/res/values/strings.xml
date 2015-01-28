@@ -26,5 +26,10 @@
     <string name="title_activity_fragment_dialog">fragmentDialog</string>
     <string name="title_activity_fragment_alert_dialog">FragmentAlertDialog</string>
     <string name="alert_dialog_two_buttons_title">titulo</string>
+    <string name="title_activity_compartir">Compartir</string>
+    <string name="action_share">share</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="title_activity_borrar">borrar</string>
+    <string name="title_activity_actividad_preferencias">ActividadPreferencias</string>
 
 </resources>

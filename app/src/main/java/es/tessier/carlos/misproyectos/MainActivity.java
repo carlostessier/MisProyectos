@@ -16,10 +16,14 @@ public class MainActivity extends ListActivity {
     private String practicas[] = {"GoogleJSON",
             "intents.Actividad_Intent_1",
             "intents.Actividad_Intent_2",
+            "intents.BroadcastReceiver",
             "lifecycle.CicloDeVida",
             "lifecycle.Pulsame",
-            "intents.BroadcastReceiver",
             "dialog.Progress",
+            "persistencia.PreferenceActivity",
+            "persistencia.ActividadPreferencias",
+            "Compartir"
+
             };
 
     final static String TAG = MainActivity.class.getName();

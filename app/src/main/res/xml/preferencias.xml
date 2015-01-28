@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Categoria 1" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxPref"
+            android:summary="Verdadero o Falso"
+            android:title="Checkbox" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Categoria 2" >
+
+        <EditTextPreference
+            android:defaultValue="[Introducir un texto aquí]"
+            android:key="editTextPref"
+            android:summary="Introducir un texto"
+            android:title="Editar Texto" />
+
+        <RingtonePreference
+            android:key="ringtonePref"
+            android:summary="Seleccionar un tono de llamada"
+            android:title="Ringtones" />
+
+        <PreferenceScreen
+            android:key="PantallaOpcionesAvanzadas"
+            android:summary="Haz click aquí para abrir opciones avanzadas"
+            android:title="Opciones avanzadas" >
+
+            <EditTextPreference
+                android:key="EditarOpcionesAvanzadas"
+                android:summary="Introducir un texto"
+                android:title="Editar Texto (opciones avanzadas)" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

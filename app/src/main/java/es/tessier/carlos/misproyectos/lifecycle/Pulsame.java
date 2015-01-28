@@ -1,14 +1,14 @@
 package es.tessier.carlos.misproyectos.lifecycle;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 
 import es.tessier.carlos.misproyectos.R;
 
 
-public class Pulsame extends ActionBarActivity {
+public class Pulsame extends Activity {
 
     private int numVeces;
     private final static String NUM_VECES = "numVeces";
