@@ -86,7 +86,7 @@
             android:label="@string/title_activity_fragment_alert_dialog" >
         </activity>
         <activity
-            android:name=".Compartir"
+            android:name=".Compartir2"
             android:label="@string/title_activity_compartir"
             android:parentActivityName=".MainActivity" >
         </activity>
@@ -101,6 +101,14 @@
         <activity
             android:name=".persistencia.ActividadPreferencias"
             android:label="@string/title_activity_actividad_preferencias"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.tessier.carlos.misproyectos.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Compartir"
+            android:label="@string/title_activity_compartir"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

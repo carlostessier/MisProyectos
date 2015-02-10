@@ -5,8 +5,7 @@
         parent="@style/Theme.AppCompat.Light.DarkActionBar">
     </style>-->
 
-    <style name="AppTheme"
-        parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
     </style>
 
 </resources>
